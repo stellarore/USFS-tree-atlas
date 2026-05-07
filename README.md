@@ -1,21 +1,21 @@
-#Source paper: 
+# Source paper 
 Iverson, L.R.; et al 2019. https://doi.org/10.3390/f10110989
 
-# Visualizations:
+# Visualizations
 https://stellarore.github.io/USFS-tree-atlas/
 
 https://public.tableau.com/app/profile/chris.b4242/viz/shared/284YMCTTW
 
 https://public.tableau.com/app/profile/chris.b4242/viz/shared/DJTK73D35
 
-# Tree Atlas:
+# Tree Atlas
 https://www.fs.usda.gov/nrs/atlas/combined/resources/summaries/ecomap/
 
 https://www.fs.usda.gov/nrs/atlas/tree/
 
 https://www.fs.usda.gov/nrs/atlas/tree/v4/modals/info.php#top
 
-# Background:
+# Background
 Trees are a keystone species in many ecosystems. Climate change threatens them and all species that rely on them for food and habitat.  In Iverson, L.R.; et al (2019), the authors use Forestry Inventory Assessment data from the US Forestry Service to identify current habitat conditions for 135 tree species across the eastern US. They then predict future climate conditions (at 2100) under RCP4.5 and RCP8.5 (IPCC5 2013), and identify ranges where these species will likely maintain, expand, or lose population. This was intended as a guide for local forest managers to choose species to propagate and protect in their regions that have the best chances at surviving a changing climate. It was limited to the east of 100degW due to limitations in funding, data, and knowledge on western ecosystems. However, efforts are underway to expand the scope of our models to the western United States as well as Canada.
 
 They have released their data as a series of excel sheets, each describing a region with its tree species.  Each species has a variety of data, notably FIAsum (FIA area-weighted importance value), FIAiv (FIA average species wide importance value), and SSO (species selection option). The importance value is calculated from the number of trees within a zone and their basal areas (trunk cross sectional area). Importance Values(X) = (50 * basal area(X) / basal area(all species)) + (50 * number of stems(X) / number of stems(all species)), where X is a single species. SSO was determined by a tree’s current abundance, species’s adaptability and how the climate is predicted to change.
@@ -33,10 +33,10 @@ where Importance Value can be FIAsum or FIAiv. If a zone has species with all SS
 
 Looking at the maps overall, the relative index values among the zones look comparable, whether using FIAsum or FIAiv. Northern MN and southern TX show better indexes under FIAiv. 
 
-###FIAsum
+### FIAsum
 <img width="742" height="546" alt="image" src="https://github.com/user-attachments/assets/b4d2cd30-da6f-40cd-a0c3-0a5ac40da60a" />
 
-###FIAiv 
+### FIAiv 
 <img width="656" height="518" alt="image" src="https://github.com/user-attachments/assets/500277bf-57a5-4bb6-affe-de381b823506" />
 
 ## Forest Inventory Assessment (FIA) / National Forest Inventory (NFI)
