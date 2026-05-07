@@ -27,9 +27,9 @@ If a species has a SSO = 0,1 or 2, it is currently found within the zone.  If SS
 ## Creating the index
 Using these SSO values I have calculated an index for each zone to evaluate how well the current forest composition can handle impending climate change where:
 
-Index = sum of trees ([Importance Value] * [SSO (0 or 1)]) / ( sum of trees ([Importance Value])) - 1.00
+    Index = sum of trees ([Importance Value] * [SSO (0 or 1)]) / ( sum of trees ([Importance Value]))   -   1.00
 
-where Importance Value can be FIAsum or FIAiv. If a zone has species with all SSO = 1 or 2 (all species survive), the yellow and green terms will cancel to 1.00, leaving an index = 0.  If all species have SSO = 0 (all species struggle/die-off), the first term will be zero, leaving an index = -1.00.  The greater a single species’s Importance Value, the greater the loss for the ecosystem will be if SSO = 0, and the index will be closer to -1.00.  
+where Importance Value can be FIAsum or FIAiv. If a zone has species with all SSO = 1 or 2 (all species survive), the first term will cancel to 1.00, leaving an index = 0.  If all species have SSO = 0 (all species struggle/die-off), the first term will be zero, leaving an index = -1.00.  The greater a single species’s Importance Value, the greater the loss for the ecosystem will be if SSO = 0, and the index will be closer to -1.00.  
 
 Looking at the maps overall, the relative index values among the zones look comparable, whether using FIAsum or FIAiv. Northern MN and southern TX show better indexes under FIAiv. 
 
