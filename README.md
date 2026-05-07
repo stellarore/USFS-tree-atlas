@@ -3,12 +3,16 @@ Main paper: Iverson, L.R.; et al 2019. https://doi.org/10.3390/f10110989
 
 Visualizations:
 https://stellarore.github.io/USFS-tree-atlas/
+
 https://public.tableau.com/app/profile/chris.b4242/viz/shared/284YMCTTW
+
 https://public.tableau.com/app/profile/chris.b4242/viz/shared/DJTK73D35
 
 Tree Atlas:
 https://www.fs.usda.gov/nrs/atlas/combined/resources/summaries/ecomap/
+
 https://www.fs.usda.gov/nrs/atlas/tree/
+
 https://www.fs.usda.gov/nrs/atlas/tree/v4/modals/info.php#top
 
 Visualization Notes:
